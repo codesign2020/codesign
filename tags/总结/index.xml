@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>总结 on Codesign</title>
+    <link>https://example.com/tags/%E6%80%BB%E7%BB%93/</link>
+    <description>Recent content in 总结 on Codesign</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2019 12:35:02 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>总结 | 生活与思想汇报 20190527</title>
+      <link>https://example.com/p/%E6%80%BB%E7%BB%93-%E7%94%9F%E6%B4%BB%E4%B8%8E%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5-20190527/</link>
+      <pubDate>Mon, 27 May 2019 12:35:02 +0000</pubDate>
+      
+      <guid>https://example.com/p/%E6%80%BB%E7%BB%93-%E7%94%9F%E6%B4%BB%E4%B8%8E%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5-20190527/</guid>
+      <description>角色转换 在工作上，工作重心从原来的设计与用户体验，向产品经理倾斜，最明显的变化就是关于产品整体规划与设计开发流程的内容越来越多。虽然自己对这方面还不是特别擅长，但也在努力学习这方面的相关知识，争取能尽快完成工作角色的转换，为后续的职业规划打好基础。
+瘦客户机与NAS 搭建家庭的NAS早就是我的打算了，毕竟随着时间流逝和家庭角色的转变，需要及时保存的照片视频越来越多。其实最省事的NAS应该是买一台群晖，无奈价钱还是有点高。 最近在淘宝淘了一台惠普的瘦客户机，价格大概不到300，打算在家里装一个NAS系统，除了做存储和家庭媒体，还能做主机折腾一下。 不过在这期间，我也由于只是个linux菜鸟，所以遇到了很多坑。我前前后后尝试了freeNas、openmediavault、unbuntu、debian、windows server 2016等，但由于学习成本的缘故，最后还是换回了群晖系统。 不过有一点始终不明白，国产的U-NAS系统无论如何刻录都无法进行引导。 现在最大的问题就是，无法外网访问，尝试过内网穿透，还是不很理想。
+笔记软件 之前一直在用印象笔记收集所有文章，作为一个全平台的归档应用。但让我一直感觉不爽快的是印象笔记的编辑器实在太难用了，就连基本的行间距都没有，而默认的间距又窄的可怜。虽然上了markdown编辑器，但现在只有mac和windows客户端支持，生成的文章在移动平台只能查看不能编辑。 我在写作长文的时候，一直在用Ulysses。虽然这个编辑器改成订阅制后争议颇大，但依靠着其精美的排版、强大的自定义主题以及其他特性，还是博得了我的青睐。
+Bear也是我一直在用的一款笔记软件，虽然没有自定义主题、外部文件夹、不支持表格等缺点，但从整体的美观度、流畅性及体积来看都是很不错的笔记软件。虽然目前没有全平台，但开发者说正在设计网页版，想必会是个不错的选择。
+待办事项 之前为了全平台，开了滴答清单的会员，也因为滴答清单功能越来越丰富，既有日历又有提醒事项，还加入了习惯、番茄钟、看板，越来越像worktile的项目产品管理了，因为功能繁杂反而失去了焦点和使用核心。 我计划还是换回Things+系统日历，还是比较习惯简约、流畅型应用，有时候软件的功能越是丰富，其可能带来的效率会反而下降。</description>
+    </item>
+    
+  </channel>
+</rss>

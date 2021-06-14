@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NAS on Codesign</title>
+    <link>https://example.com/tags/nas/</link>
+    <description>Recent content in NAS on Codesign</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/nas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>总结 ｜ 生活与思想汇报 20190811</title>
+      <link>https://example.com/p/%E6%80%BB%E7%BB%93-%E7%94%9F%E6%B4%BB%E4%B8%8E%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5-20190811/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/p/%E6%80%BB%E7%BB%93-%E7%94%9F%E6%B4%BB%E4%B8%8E%E6%80%9D%E6%83%B3%E6%B1%87%E6%8A%A5-20190811/</guid>
+      <description>群晖与NAS折腾的落幕 在经历了小主机对于各类开源NAS和黑群晖的折腾之后，最终我还是入手了**群晖DS218+**这款机器，虽说只有两盘位，对RAID不友好，但考虑到我还处于入门阶段，再加上暂时还没有那么多资料，所以两盘位也够用。我添加了定时任务提醒我每个月备份资料到移动硬盘。毕竟重要的资料还是不能只放在一个地方。
+不过群晖是真的贵，这样的硬件规格，威联通应该只需要一半价格就够了。
+机械键盘 之前一直没感觉机械键盘好在哪里，噼里啪啦的声音没有好感。但我最近整理书桌，把三年的旧电脑搭建成一个桌面主机的时候，发现需要一款键盘，而一般键盘没法做到全键无冲，所以我还是选择了雷柏500这款入门的机械键盘，茶轴声音还是大一些。自带的键帽实在是没法分辨字体，我自己购入了大碳彩色键帽，现在好多了。
+也算是对机械键盘有了一些认知。
+个人博客 闲来无事折腾自己的博客，发现了一个开源的博客系统叫做ghost，很耐看很轻便。但搭建起来着实费劲。因为我的虚拟主机用的cloudlinux轻量系统。而且空间有限。虽说好不容易搭建起来了，但在上传图片的时候一直报错，不知道是何原因，反复下了几个版本都是这样。而静态版本的所需组建buster又多年遗弃导致无法生成。最后还是换回了wordpress，而且惊喜发现有一款ghost主题，虽说作者的网站已经404了，但还是挡不住我自己进行优化。
+现在博客的样子就是经过我自己优化后的。自己加上网络贡献的代码，添加了标签、归档和个人三个页面，并对其中代码进行了优化，虽然还有些不完善的地方，但整体已经与ghost无异了。
+总结 近来其实最大的感受就是生命在于折腾。我这颗折腾的心不知道还会这样多久，见到新奇的事物就忍不住尝试一把。不过虽然折腾的过程很痛苦，经常夜不能寐，满脑子都是这件事如何解决，但过程让我学会了不少东西。时间虽说用在了折腾上，但也不能叫做浪费。毕竟能学到东西，才是折腾的目的。</description>
+    </item>
+    
+  </channel>
+</rss>

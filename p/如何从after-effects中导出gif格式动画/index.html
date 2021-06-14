@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='使用AE制作UI动效是一件极为惬意的事情，但在导出分享的时候，格式里面却唯独少了易于传播的GIF格式，除了导出为**PNG序列**，然后使用其他软件（如PS）合成GIF以外，其实还有一些其他方式可以将AE文件导出为GIF。'><title>如何从After effects中导出GIF格式动画</title>
+
+<link rel='canonical' href='https://example.com/p/%E5%A6%82%E4%BD%95%E4%BB%8Eafter-effects%E4%B8%AD%E5%AF%BC%E5%87%BAgif%E6%A0%BC%E5%BC%8F%E5%8A%A8%E7%94%BB/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='如何从After effects中导出GIF格式动画'>
+<meta property='og:description' content='使用AE制作UI动效是一件极为惬意的事情，但在导出分享的时候，格式里面却唯独少了易于传播的GIF格式，除了导出为**PNG序列**，然后使用其他软件（如PS）合成GIF以外，其实还有一些其他方式可以将AE文件导出为GIF。'>
+<meta property='og:url' content='https://example.com/p/%E5%A6%82%E4%BD%95%E4%BB%8Eafter-effects%E4%B8%AD%E5%AF%BC%E5%87%BAgif%E6%A0%BC%E5%BC%8F%E5%8A%A8%E7%94%BB/'>
+<meta property='og:site_name' content='Codesign'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='AE' /><meta property='article:tag' content='GIF' /><meta property='article:tag' content='动效' /><meta property='article:published_time' content='2019-02-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2019-02-18T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="如何从After effects中导出GIF格式动画">
+<meta name="twitter:description" content="使用AE制作UI动效是一件极为惬意的事情，但在导出分享的时候，格式里面却唯独少了易于传播的GIF格式，除了导出为**PNG序列**，然后使用其他软件（如PS）合成GIF以外，其实还有一些其他方式可以将AE文件导出为GIF。"><link href="https://fonts.font.im/css?family=Nunito" rel="stylesheet">
+<style>
+    :root {
+        --article-font-family: "Nunito","Noto Serif SC", var(--base-font-family);
+        --base-font-family: "Nunito","Lato", var(--sys-font-family), var(--zh-font-family);
+    }
+    *:not([class*="icon"]):not([class*="fa"]):not([class*="logo"]):not([class*="mi"]):not([class*="hwic"]):not([class*="code"]):not(i){
+        font-family: "Nunito","Noto Serif SC", var(--base-font-family) !important;
+    }
+</style>
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column compact article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/me_hu670897d72fc8d66ee9e828e300fa1c33_21647_300x0_resize_q75_box.jpg" width="300"
+                            height="296" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🧐</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://example.com">Codesign</a></h1>
+        <h2 class="site-description">自信成长，无惧悲伤。</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/about/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://example.com" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E8%AE%BE%E8%AE%A1/" >
+                设计
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/%E5%A6%82%E4%BD%95%E4%BB%8Eafter-effects%E4%B8%AD%E5%AF%BC%E5%87%BAgif%E6%A0%BC%E5%BC%8F%E5%8A%A8%E7%94%BB/">如何从After effects中导出GIF格式动画</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        使用AE制作UI动效是一件极为惬意的事情，但在导出分享的时候，格式里面却唯独少了易于传播的GIF格式，除了导出为**PNG序列**，然后使用其他软件（如PS）合成GIF以外，其实还有一些其他方式可以将AE文件导出为GIF。
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">2019-02-02</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h2 id="1-使用adobe-media-encoder导出">1. 使用Adobe Media Encoder导出</h2>
+<p><strong>Adobe Media Encoder</strong>是Adobe旗下服务于Premiere Pro等视频编辑软件的媒体解码器。在2008年发布Premiere Pro CS4以后，<a class="link" href="https://baike.baidu.com/item/Adobe%20Media%20Encoder/3073830?fr=aladdin"  target="_blank" rel="noopener"
+    ><strong>Media Encoder</strong>忽然扶正</a>，从一个附属编码输出端变为输出决断权控制者。拥有多种输出格式的它，便可以导出为GIF格式。</p>
+<h3 id="添加渲染队列到encoder">添加渲染队列到Encoder</h3>
+<p>在时间轴面板上，选定要导出动画的合成为当前和成，然后选择菜单栏的**「合成」-「添加到Adobe Media Encoder队列」**，或者使用快捷键**「Command+Alt+M」**（windows下为Ctrl+Alt+M），即可将当前文件添加到AME软件队列，此时可能需要一点时间来打开Encoder。
+<img src="https://cdn.jsdelivr.net/gh/sherlock1990/pic@master/Vy2SAw.jpg" alt=""  /></p>
+<h3 id="设置导出格式">设置导出格式</h3>
+<p>在打开的Encoder软件中，在**「队列」**一栏里，点击**「匹配源 高比特率」**处点击，弹出**「导出设置」**面板，在**「格式」**一栏选择**「动画GIF」**格式。
+第一次使用时默认为**「高比特率」**，当选择一次动画GIF后，预设一栏会自动变为**「动画GIF （匹配源）」**，下次直接导出就好了。
+<img src="https://cdn.jsdelivr.net/gh/sherlock1990/pic@master/KubuT9.jpg" alt=""  />
+选定格式后，还可以对质量、宽高等进行设置。
+<img src="https://cdn.jsdelivr.net/gh/sherlock1990/pic@master/jRenLM.jpg" alt=""  /></p>
+<h3 id="渲染">渲染</h3>
+<p>设置完成后，点击「开始渲染」按钮，即可渲染成功。</p>
+<h2 id="2-使用第三方插件进行导出">2. 使用第三方插件进行导出</h2>
+<p>第三方插件有**<a class="link" href="https://aescripts.com/gifgun/"  target="_blank" rel="noopener"
+    >gifgun</a>**、**<a class="link" href="http://gifmagic.com/"  target="_blank" rel="noopener"
+    >gifmagic</a>**等。
+存在的共同问题是对AE中文支持不是很好，尤其是**gifgun**，需要合成源名称为英文，否则可能出现问题。
+另外**gifmagic**的原理是先渲染出PNG序列，然后在生成gif，我在实验中发现合成速度比较慢，不知道是不是受机器性能影响。
+如需**gifmagic**的安装使用教程，请点击<a class="link" href="http://www.gfxcamp.com/gif-magick/"  target="_blank" rel="noopener"
+    >这里</a>。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/ae/">AE</a>
+        
+            <a href="/tags/gif/">GIF</a>
+        
+            <a href="/tags/%E5%8A%A8%E6%95%88/">动效</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Codesign
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.3.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

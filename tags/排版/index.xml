@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>排版 on Codesign</title>
+    <link>https://example.com/tags/%E6%8E%92%E7%89%88/</link>
+    <description>Recent content in 排版 on Codesign</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E6%8E%92%E7%89%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>设计笔记 | 20190821</title>
+      <link>https://example.com/p/%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0-20190821/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/p/%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0-20190821/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;设计笔记&lt;/strong&gt;是一段周期内，根据网上冲浪及阅读等不同渠道获取的设计、交互、产品思维等领域的笔记，文章大都以摘抄为主，也有少部分自身感受。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

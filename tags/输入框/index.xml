@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>输入框 on Codesign</title>
+    <link>https://example.com/tags/%E8%BE%93%E5%85%A5%E6%A1%86/</link>
+    <description>Recent content in 输入框 on Codesign</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E8%BE%93%E5%85%A5%E6%A1%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于B端产品的输入框设计</title>
+      <link>https://example.com/p/%E5%85%B3%E4%BA%8Eb%E7%AB%AF%E4%BA%A7%E5%93%81%E7%9A%84%E8%BE%93%E5%85%A5%E6%A1%86%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/p/%E5%85%B3%E4%BA%8Eb%E7%AB%AF%E4%BA%A7%E5%93%81%E7%9A%84%E8%BE%93%E5%85%A5%E6%A1%86%E8%AE%BE%E8%AE%A1/</guid>
+      <description>&lt;p&gt;B端产品中，一个较为重要的信息录入角色是&lt;strong&gt;文本输入框&lt;/strong&gt;，输入框承载着一个页面内信息录入的主要入口。那么在输入框的设计中，我们经常遇到哪些问题，需要注意哪些事项呢？笔者根据网上的文章做了一些整理，供大家参考。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
